@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+body {
+  height: 1000px;
+  background-color: #1d1d1d;
+}
+
+.header {
+  background-color: #000;
+  max-width: 1440px;
+  height: 142px;
+}
+.header__overall {
+  height: 36px;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 24px;
+  padding: 10px 104px 10px 0px;
+}
+.header__overall__box {
+  display: flex;
+  gap: 4px;
+}
+.header__overall__box span {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+}
+.header__overall img {
+  height: 16px;
+  width: 16px;
+}
+.header__fixed {
+  height: 142px;
+  width: 100%;
+  padding: 14px 104px 12px 104px;
+  display: flex;
+  align-items: center;
+  background-color: #1d1d1d;
+  background-image: linear-gradient(180deg, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+}
+.header__fixed .logo {
+  width: 250px;
+}
+.header__fixed__center {
+  margin-left: 165px;
+}
+.header__fixed__center .top {
+  height: 48px;
+  width: 400px;
+  display: flex;
+  gap: 0;
+  background: #fff;
+  overflow: hidden;
+  border-radius: 10px;
+  align-items: center;
+}
+.header__fixed__center .top img {
+  height: 48px;
+  width: 48px;
+  background-image: linear-gradient(90deg, #ffdd00, #faa61a);
+  padding: 14.5px;
+  margin: 0;
+}
+.header__fixed__center .top input {
+  display: inline-block;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  height: 19px;
+  width: 96px;
+  flex-grow: 1;
+  font-size: 14px;
+  color: #999999;
+  outline: none;
+  padding: 20px;
+}
+.header__fixed__center .bottom {
+  margin-top: 12px;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 12px;
+}
+.header__fixed__center .bottom span {
+  color: #fff;
+  margin-right: 2px;
+}
+.header__fixed__center .bottom a {
+  color: #fba700;
+  margin-left: 5px;
+}
+.header__fixed__right {
+  margin-left: 266px;
+  color: #fff;
+  display: flex;
+  gap: 14px;
+}
+.header__fixed__right .box {
+  height: 48px;
+  width: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2px;
+  position: relative;
+}
+.header__fixed__right .box img {
+  height: 24px;
+  width: 24px;
+}
+.header__fixed__right .box > span {
+  font-size: 12px;
+  font-weight: regular;
+}
+.header__fixed__right .box__quantity {
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  background-color: #fba700;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  right: 5px;
+}
+.header__fixed__right .box__quantity span {
+  font-size: 10px;
+  color: #000;
+  font-weight: bold;
+}/*# sourceMappingURL=index.css.map */
